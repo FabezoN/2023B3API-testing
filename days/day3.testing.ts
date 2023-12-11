@@ -169,14 +169,20 @@ export class DayThreeTesting extends BaseRouteTesting {
                       id: {
                         type: 'string',
                       },
-                      name: {
+                      startDate: {
                         type: 'string',
                       },
-                      referringEmployeeId: {
+                      endDate: {
+                        type: 'string',
+                      },
+                      userId: {
+                        type: 'string',
+                      },
+                      projectId: {
                         type: 'string',
                       },
                     },
-                    required: ['name', 'id', 'referringEmployeeId'],
+                    required: ['startDate', 'endDate', 'userId', 'projectId', 'id'],
                     additionalProperties: false,
                   },
                 });
@@ -193,14 +199,20 @@ export class DayThreeTesting extends BaseRouteTesting {
                     id: {
                       type: 'string',
                     },
-                    name: {
+                    startDate: {
                       type: 'string',
                     },
-                    referringEmployeeId: {
+                    endDate: {
+                      type: 'string',
+                    },
+                    userId: {
+                      type: 'string',
+                    },
+                    projectId: {
                       type: 'string',
                     },
                   },
-                  required: ['name', 'id', 'referringEmployeeId'],
+                  required: ['startDate', 'endDate', 'userId', 'projectId', 'id'],
                   additionalProperties: false,
                 },
               });
@@ -216,14 +228,20 @@ export class DayThreeTesting extends BaseRouteTesting {
                     id: {
                       type: 'string',
                     },
-                    name: {
+                    startDate: {
                       type: 'string',
                     },
-                    referringEmployeeId: {
+                    endDate: {
+                      type: 'string',
+                    },
+                    userId: {
+                      type: 'string',
+                    },
+                    projectId: {
                       type: 'string',
                     },
                   },
-                  required: ['name', 'id', 'referringEmployeeId'],
+                  required: ['startDate', 'endDate', 'userId', 'projectId', 'id'],
                   additionalProperties: false,
                 },
               });
