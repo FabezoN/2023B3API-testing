@@ -26,10 +26,10 @@ describe('AppController (e2e)', () => {
   });
 
   new DayOneTesting(app).routeTest();
-  // new DayTwoPartOneTesting(app).routeTest();
-  // new DayTwoPartTwoTesting(app).routeTest();
-  // new DayThreeTesting(app).routeTest();
-  // new DayFourTesting(app).routeTest();
-  // new DayFivePartOneTesting(app).routeTest();
-  // new DayFivePartTwoTesting(app).routeTest();
+  new DayTwoPartOneTesting(app).routeTest();
+  new DayTwoPartTwoTesting(app).routeTest();
+  new DayThreeTesting(app).routeTest();
+  new DayFourTesting(app).routeTest();
+  new DayFivePartOneTesting(app).routeTest();
+  new DayFivePartTwoTesting(app).routeTest();
 });
